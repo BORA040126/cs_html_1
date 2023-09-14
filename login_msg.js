@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (event) => {
     const username = loginForm.username.value;
 
     if (username === "김보라") {
-        alert("환영합니다.");
+        alert("환영합니다!");
         location.reload();
         window.location.href="page1.html";
     } else {
