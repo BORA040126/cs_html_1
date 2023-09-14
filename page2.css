@@ -1,0 +1,46 @@
+body
+{
+    background-color: rgb(220, 198, 251);
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+h1
+{
+    font-size:xx-large;
+}
+img
+{
+    width: 300px;
+}
+a{
+    text-decoration: none;
+}
+.move {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.left .box
+{
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+.right .box
+{
+    margin-right:10px;
+    margin-bottom:10px;
+}
